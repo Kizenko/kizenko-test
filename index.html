@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="modal amenities-modal" data-modal="2">
+      <!--   Svg иконка для закрытия окна  -->
+
+      <!-- editing zone -->
+      <!-- <p class="modal__title">ЗАБРОНЮВАТИ НОМЕР</p> -->
+      <form class="amenities-form">
+        <input
+          type="text"
+          name="user"
+          class="amenities-input"
+          id="user"
+          placeholder="Ваше ім’я"
+        />
+        <label for="user" class="amenities-label"
+          >На кого забронювати номер?</label
+        >
+        <input
+          type="tel"
+          name="phone"
+          class="amenities-input"
+          id="phone"
+          placeholder="+38 (___) ___-__-__"
+        />
+        <label for="phone" class="amenities-label">Номер телефону</label>
+        <input
+          type="text"
+          name="phone"
+          class="amenities-input"
+          id="room"
+          placeholder="Двомісний люкс"
+        />
+        <svg class="amenities-input-icon" width="24" height="24">
+          <use href="../../public/favicon.svg#icon-arrow-down"></use>
+        </svg>
+        <label for="room" class="amenities-label">Категорія номеру</label>
+        <input
+          type="text"
+          name="arrived"
+          class="amenities-input"
+          id="arrived"
+          placeholder="Сьогодні"
+        />
+        <svg class="amenities-input-icon" width="24" height="24">
+          <use href="../../public/favicon.svg#icon-arrow-down"></use>
+        </svg>
+        <label for="arrived" class="amenities-label">Дата заїзду</label>
+        <input
+          type="text"
+          name="departure"
+          class="amenities-input"
+          id="departure"
+          placeholder="Сьогодні"
+        />
+        <svg class="amenities-input-icon" width="24" height="24">
+          <use href="../../public/favicon.svg#icon-arrow-down"></use>
+        </svg>
+        <label for="departure" class="amenities-label">Дата виїзду</label>
+      </form>
+      <!-- /editing zone -->
+    </div>
+  </body>
+</html>
